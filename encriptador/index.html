@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <title>encriptador de texto</title>
+    
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo-alura">
+    </header>
+
+    <main>
+
+        <section class="seccion-1">
+            <textarea type="text" id="textoEncriptado" class="mensaje" placeholder="Ingresa el texto aquí" cols="30" rows="10"></textarea>
+        
+            <div class="botones">
+                <button type="button" id="botonEncriptado" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="botonDesencriptado" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="seccion-2">
+            <div>
+                <textarea name="resultado" id="textoDesencriptado" class="resultado" placeholder="Resultado de tu texto" cols="30" rows="17"></textarea>
+                <p class="parrafo-buscar"></p>
+                <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button>
+            </div> 
+        </section>
+    </main>
+
+    <footer>
+        <h2>Realizado por Selena Franco 2023 - Alura</h2>
+    </footer>
+</body>
+<script>
+
+</script>
+</html>
